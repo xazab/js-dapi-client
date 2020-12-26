@@ -4,9 +4,9 @@ const {
     GetBlockResponse,
     CorePromiseClient,
   },
-} = require('@dashevo/dapi-grpc');
+} = require('@xazab/dapi-grpc');
 
-const grpcErrorCodes = require('@dashevo/grpc-common/lib/server/error/GrpcErrorCodes');
+const grpcErrorCodes = require('@xazab/grpc-common/lib/server/error/GrpcErrorCodes');
 
 const getBlockByHashFactory = require('../../../../lib/methods/core/getBlockByHashFactory');
 

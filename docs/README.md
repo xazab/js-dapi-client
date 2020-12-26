@@ -1,18 +1,18 @@
 ## DAPI-Client
 
-[![NPM Version](https://img.shields.io/npm/v/@dashevo/dapi-client)](https://www.npmjs.com/package/@dashevo/dapi-client)
-[![Build Status](https://travis-ci.com/dashevo/dapi-client.svg?branch=master)](https://travis-ci.com/dashevo/dapi-client)
-[![Release Date](https://img.shields.io/github/release-date/dashevo/dapi-client)](https://github.com/dashevo/dapi-client/releases/latest)
+[![NPM Version](https://img.shields.io/npm/v/@xazab/dapi-client)](https://www.npmjs.com/package/@xazab/dapi-client)
+[![Build Status](https://travis-ci.com/xazab/js-dapi-client.svg?branch=master)](https://travis-ci.com/xazab/js-dapi-client)
+[![Release Date](https://img.shields.io/github/release-date/xazab/js-dapi-client)](https://github.com/xazab/js-dapi-client/releases/latest)
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen)](https://github.com/RichardLitt/standard-readme)
 
-Client library used to access Dash DAPI endpoints
+Client library used to access Xazab DAPI endpoints
 
-This library enables HTTP-based interaction with the Dash blockchain and Dash
-Platform via the decentralized API ([DAPI](https://github.com/dashevo/dapi))
-hosted on Dash masternodes.
+This library enables HTTP-based interaction with the Xazab blockchain and Xazab
+Platform via the decentralized API ([DAPI](https://github.com/xazab/dapi))
+hosted on Xazab masternodes.
 
  - `DAPI-Client` provides automatic server (masternode) discovery using either a default seed node or a user-supplied one
- - `DAPI-Client` maps to DAPI's [RPC](https://github.com/dashevo/dapi/tree/master/lib/rpcServer/commands) and [gRPC](https://github.com/dashevo/dapi/tree/master/lib/grpcServer/handlers) endpoints
+ - `DAPI-Client` maps to DAPI's [RPC](https://github.com/xazab/dapi/tree/master/lib/rpcServer/commands) and [gRPC](https://github.com/xazab/dapi/tree/master/lib/grpcServer/handlers) endpoints
 
 ### Install
 
@@ -23,7 +23,7 @@ In order to use this library in Node, you will need to add it to your project as
 Having [NodeJS](https://nodejs.org/) installed, just type in your terminal :
 
 ```sh
-npm install @dashevo/dapi-client
+npm install @xazab/dapi-client
 ```
 
 ### CDN Standalone
@@ -31,10 +31,10 @@ npm install @dashevo/dapi-client
 For browser usage, you can also directly rely on unpkg :
 
 ```
-<script src="https://unpkg.com/@dashevo/dapi-client"></script>
+<script src="https://unpkg.com/@xazab/dapi-client"></script>
 ```
 
 
 ## Licence
 
-[MIT](https://github.com/dashevo/dapi-client/blob/master/LICENCE.md) © Dash Core Group, Inc.
+[MIT](https://github.com/xazab/js-dapi-client/blob/master/LICENCE.md) © Dash Core Group, Inc. | © Xazab Foundation

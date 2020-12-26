@@ -1,4 +1,4 @@
-const SimplifiedMNList = require('@dashevo/dashcore-lib/lib/deterministicmnlist/SimplifiedMNList');
+const SimplifiedMNList = require('@xazab/xazabcore-lib/lib/deterministicmnlist/SimplifiedMNList');
 
 const SimplifiedMasternodeListProvider = require('../../../lib/SimplifiedMasternodeListProvider/SimplifiedMasternodeListProvider');
 const DAPIAddress = require('../../../lib/dapiAddressProvider/DAPIAddress');

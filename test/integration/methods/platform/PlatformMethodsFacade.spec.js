@@ -5,11 +5,11 @@ const {
     GetIdentityResponse,
     BroadcastStateTransitionResponse,
   },
-} = require('@dashevo/dapi-grpc');
+} = require('@xazab/dapi-grpc');
 
-const DashPlatformProtocol = require('@dashevo/dpp');
+const XazabPlatformProtocol = require('@xazab/dpp');
 
-const getDataContractFixture = require('@dashevo/dpp/lib/test/fixtures/getDataContractFixture');
+const getDataContractFixture = require('@xazab/dpp/lib/test/fixtures/getDataContractFixture');
 
 const PlatformMethodsFacade = require('../../../../lib/methods/platform/PlatformMethodsFacade');
 
@@ -30,7 +30,7 @@ describe('PlatformMethodsFacade', () => {
       const response = new BroadcastStateTransitionResponse();
       grpcTransportMock.request.resolves(response);
 
-      const dpp = new DashPlatformProtocol();
+      const dpp = new XazabPlatformProtocol();
       const stateTransition = dpp.dataContract.createStateTransition(getDataContractFixture());
 
       await platformMethods.broadcastStateTransition(stateTransition);

@@ -4,10 +4,10 @@ const {
     GetIdentityRequest,
     GetIdentityResponse,
   },
-} = require('@dashevo/dapi-grpc');
+} = require('@xazab/dapi-grpc');
 
-const getIdentityFixture = require('@dashevo/dpp/lib/test/fixtures/getIdentityFixture');
-const grpcErrorCodes = require('@dashevo/grpc-common/lib/server/error/GrpcErrorCodes');
+const getIdentityFixture = require('@xazab/dpp/lib/test/fixtures/getIdentityFixture');
+const grpcErrorCodes = require('@xazab/grpc-common/lib/server/error/GrpcErrorCodes');
 
 const getIdentityFactory = require('../../../../lib/methods/platform/getIdentityFactory');
 

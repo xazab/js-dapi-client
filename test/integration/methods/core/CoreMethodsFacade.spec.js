@@ -7,9 +7,9 @@ const {
     GetTransactionResponse,
     GetStatusResponse,
   },
-} = require('@dashevo/dapi-grpc');
+} = require('@xazab/dapi-grpc');
 
-const BloomFilter = require('@dashevo/dashcore-lib/lib/bloomfilter');
+const BloomFilter = require('@xazab/xazabcore-lib/lib/bloomfilter');
 
 const CoreMethodsFacade = require('../../../../lib/methods/core/CoreMethodsFacade');
 

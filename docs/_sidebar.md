@@ -15,4 +15,4 @@
    - Utilities
         - [`.getMnListDiff()`](usage/utils/getMnListDiff.md)
         - [`.subscribeToTransactionsWithProofs()`](usage/utils/subscribeToTransactionsWithProofs.md)
-- [License](https://github.com/dashevo/dapi-client/blob/master/LICENSE)
+- [License](https://github.com/xazab/dapi-client/blob/master/LICENSE)

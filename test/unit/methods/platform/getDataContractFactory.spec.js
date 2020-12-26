@@ -4,10 +4,10 @@ const {
     GetDataContractRequest,
     GetDataContractResponse,
   },
-} = require('@dashevo/dapi-grpc');
+} = require('@xazab/dapi-grpc');
 
-const getDataContractFixture = require('@dashevo/dpp/lib/test/fixtures/getDataContractFixture');
-const grpcErrorCodes = require('@dashevo/grpc-common/lib/server/error/GrpcErrorCodes');
+const getDataContractFixture = require('@xazab/dpp/lib/test/fixtures/getDataContractFixture');
+const grpcErrorCodes = require('@xazab/grpc-common/lib/server/error/GrpcErrorCodes');
 
 const getDataContractFactory = require('../../../../lib/methods/platform/getDataContractFactory');
 
