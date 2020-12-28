@@ -1,33 +1,17 @@
 {
   "name": "@xazab/dapi-client",
-  "version": "0.17.0-dev.4",
+  "version": "0.17.0-dev.5",
   "description": "Client library used to access Xazab DAPI endpoints",
   "main": "lib/DAPIClient.js",
   "contributors": [
-    {
-      "name": "Ivan Shumkov",
-      "email": "ivan@shumkov.ru",
-      "url": "https://github.com/shumkov"
-    },
-    {
-      "name": "Djavid Gabibiyan",
-      "email": "djavid@dash.org",
-      "url": "https://github.com/jawid-h"
-    },
-    {
-      "name": "Anton Suprunchuk",
-      "email": "anton.suprunchuk@dash.org",
-      "url": "https://github.com/antouhou"
-    },
-    {
-      "name": "Konstantin Shuplenkov",
-      "email": "konstantin.shuplenkov@dash.org",
-      "url": "https://github.com/shuplenkov"
-    }
+    "Ivan Shumkov <ivan@shumkov.ru> (https://github.com/shumkov)",
+    "Djavid Gabibiyan <djavid@dash.org> (https://github.com/jawid-h)",
+    "Anton Suprunchuk <anton.suprunchuk@dash.org> (https://github.com/antouhou)",
+    "Konstantin Shuplenkov <konstantin.shuplenkov@dash.org> (https://github.com/shuplenkov)"
   ],
   "dependencies": {
     "@xazab/dapi-grpc": "~0.16.0",
-    "@xazab/xazabcore-lib": "~0.19.12",
+    "@xazab/xazabcore-lib": "~0.18.12",
     "axios": "^0.19.2",
     "cbor": "^5.0.1",
     "lodash.sample": "^4.2.1"
@@ -55,8 +39,9 @@
     "nyc": "^15.1.0",
     "sinon": "^8.1.1",
     "sinon-chai": "^3.4.0",
-    "webpack": "^4.41.6",
-    "webpack-cli": "^3.3.11"
+    "webpack": "^4.44.2",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   },
   "peerDependencies": {
     "@xazab/grpc-common": "^0.3.0"
@@ -79,5 +64,22 @@
     "check-package:version": "test $(jq -r .version package.json) = $(jq -r .version package-lock.json)",
     "prepublishOnly": "npm run build"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xazab/js-dapi-client.git"
+  },
+  "keywords": [
+    "dapi"
+  ],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/xazab/js-dapi-client/issues"
+  },
+  "homepage": "https://github.com/xazab/js-dapi-client#readme"
 }
