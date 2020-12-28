@@ -24,7 +24,7 @@ hosted on Xazab masternodes.
 ## Install
 
 ```sh
-npm install @xazab/dapi-client
+npm install @xazab/js-dapi-client
 ```
 
 ## Usage
